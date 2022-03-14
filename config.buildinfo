@@ -1,0 +1,164 @@
+#
+# Automatically generated file; DO NOT EDIT.
+# OpenWrt Configuration
+#
+CONFIG_MODULES=y
+CONFIG_HAVE_DOT_CONFIG=y
+# CONFIG_TARGET_sunxi is not set
+# CONFIG_TARGET_apm821xx is not set
+# CONFIG_TARGET_ath25 is not set
+# CONFIG_TARGET_ath79 is not set
+# CONFIG_TARGET_bcm27xx is not set
+# CONFIG_TARGET_bcm53xx is not set
+# CONFIG_TARGET_bcm47xx is not set
+# CONFIG_TARGET_bcm4908 is not set
+# CONFIG_TARGET_bcm63xx is not set
+# CONFIG_TARGET_bmips is not set
+# CONFIG_TARGET_octeon is not set
+# CONFIG_TARGET_gemini is not set
+# CONFIG_TARGET_mpc85xx is not set
+# CONFIG_TARGET_mxs is not set
+# CONFIG_TARGET_lantiq is not set
+# CONFIG_TARGET_malta is not set
+# CONFIG_TARGET_pistachio is not set
+CONFIG_TARGET_mvebu=y
+CONFIG_TARGET_mvebu_cortexa9=y
+CONFIG_TARGET_mvebu_cortexa9_DEVICE_linksys_wrt1200ac=y
+CONFIG_KSMBD_SMB_INSECURE_SERVER=y
+CONFIG_PACKAGE_6in4=y
+# CONFIG_PACKAGE_UnblockNeteaseMusic-Go is not set
+CONFIG_PACKAGE_adbyby=m
+CONFIG_PACKAGE_blkid=y
+CONFIG_PACKAGE_btrfs-progs=y
+CONFIG_PACKAGE_chinadns-ng=y
+CONFIG_PACKAGE_coreutils-nohup=y
+CONFIG_PACKAGE_e2fsprogs=y
+CONFIG_PACKAGE_etherwake=m
+CONFIG_PACKAGE_haproxy=y
+CONFIG_PACKAGE_hd-idle=y
+CONFIG_PACKAGE_ip6tables=y
+CONFIG_PACKAGE_ip6tables-mod-nat=y
+CONFIG_PACKAGE_ipt2socks=y
+CONFIG_PACKAGE_iptables-mod-iprange=y
+CONFIG_PACKAGE_ipv6helper=y
+CONFIG_PACKAGE_kmod-crypto-cbc=y
+CONFIG_PACKAGE_kmod-crypto-cts=y
+CONFIG_PACKAGE_kmod-crypto-des=y
+CONFIG_PACKAGE_kmod-crypto-md4=y
+CONFIG_PACKAGE_kmod-crypto-md5=y
+CONFIG_PACKAGE_kmod-crypto-sha512=y
+CONFIG_PACKAGE_kmod-fs-btrfs=y
+CONFIG_PACKAGE_kmod-fs-cifs=y
+CONFIG_PACKAGE_kmod-fs-exportfs=y
+CONFIG_PACKAGE_kmod-fs-ksmbd=y
+CONFIG_PACKAGE_kmod-fs-nfs-common=y
+CONFIG_PACKAGE_kmod-fs-nfs-common-rpcsec=y
+CONFIG_PACKAGE_kmod-fs-nfsd=y
+CONFIG_PACKAGE_kmod-ipt-iprange=y
+CONFIG_PACKAGE_kmod-ipt-nat6=y
+CONFIG_PACKAGE_kmod-iptunnel=y
+CONFIG_PACKAGE_kmod-iptunnel4=y
+CONFIG_PACKAGE_kmod-lib-crc32c=y
+CONFIG_PACKAGE_kmod-lib-raid6=y
+CONFIG_PACKAGE_kmod-lib-xor=y
+CONFIG_PACKAGE_kmod-lib-zlib-deflate=y
+CONFIG_PACKAGE_kmod-lib-zlib-inflate=y
+CONFIG_PACKAGE_kmod-lib-zstd=y
+# CONFIG_PACKAGE_kmod-nf-conntrack-netlink is not set
+CONFIG_PACKAGE_kmod-nf-nat6=y
+CONFIG_PACKAGE_kmod-oid-registry=y
+CONFIG_PACKAGE_kmod-shortcut-fe=m
+CONFIG_PACKAGE_kmod-shortcut-fe-cm=m
+CONFIG_PACKAGE_kmod-sit=y
+CONFIG_PACKAGE_kmod-tcp-bbr=m
+CONFIG_PACKAGE_kmod-tun=m
+CONFIG_PACKAGE_ksmbd-server=y
+CONFIG_PACKAGE_libatomic=y
+CONFIG_PACKAGE_libattr=y
+# CONFIG_PACKAGE_libcares is not set
+CONFIG_PACKAGE_libcomerr=y
+# CONFIG_PACKAGE_libev is not set
+CONFIG_PACKAGE_libevent2=y
+CONFIG_PACKAGE_libext2fs=y
+CONFIG_PACKAGE_libltdl=y
+CONFIG_PACKAGE_liblua5.3=y
+CONFIG_PACKAGE_liblzo=y
+# CONFIG_PACKAGE_libmbedtls is not set
+CONFIG_PACKAGE_libminiupnpc=y
+CONFIG_PACKAGE_libmount=y
+CONFIG_PACKAGE_libnatpmp=y
+CONFIG_PACKAGE_libncurses=y
+CONFIG_PACKAGE_libnl-core=y
+CONFIG_PACKAGE_libnl-genl=y
+CONFIG_PACKAGE_libreadline=y
+CONFIG_PACKAGE_libsmartcols=y
+# CONFIG_PACKAGE_libsodium is not set
+CONFIG_PACKAGE_libss=y
+CONFIG_PACKAGE_libstdcpp=y
+# CONFIG_PACKAGE_libudns is not set
+CONFIG_PACKAGE_libuv=y
+CONFIG_PACKAGE_lsblk=y
+# CONFIG_PACKAGE_luci-app-accesscontrol is not set
+CONFIG_PACKAGE_luci-app-adbyby-plus=m
+CONFIG_PACKAGE_luci-app-advanced=y
+CONFIG_PACKAGE_luci-app-cifs-mount=y
+CONFIG_PACKAGE_luci-app-cifsd=y
+CONFIG_PACKAGE_luci-app-diskman=y
+CONFIG_PACKAGE_luci-app-hd-idle=y
+# CONFIG_PACKAGE_luci-app-nlbwmon is not set
+CONFIG_PACKAGE_luci-app-ntpc=y
+CONFIG_PACKAGE_luci-app-passwall=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_IPv6_Nat=y
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Client is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Client is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Server is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Simple_Obfs is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan_Plus is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Plugin is not set
+CONFIG_PACKAGE_luci-app-smartdns=y
+# CONFIG_PACKAGE_luci-app-ssr-plus is not set
+CONFIG_PACKAGE_luci-app-transmission=y
+CONFIG_PACKAGE_luci-app-turboacc=m
+# CONFIG_PACKAGE_luci-app-unblockmusic is not set
+# CONFIG_PACKAGE_luci-app-vsftpd is not set
+CONFIG_PACKAGE_luci-app-wol=m
+CONFIG_PACKAGE_luci-app-zerotier=m
+CONFIG_PACKAGE_luci-compat=y
+CONFIG_PACKAGE_luci-i18n-adbyby-plus-zh-cn=m
+CONFIG_PACKAGE_luci-i18n-cifs-mount-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-cifsd-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-diskman-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-hd-idle-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-ntpc-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-smartdns-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-transmission-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-turboacc-zh-cn=m
+CONFIG_PACKAGE_luci-i18n-wol-zh-cn=m
+CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=m
+CONFIG_PACKAGE_luci-proto-ipv6=y
+# CONFIG_PACKAGE_nlbwmon is not set
+CONFIG_PACKAGE_ntpclient=y
+CONFIG_PACKAGE_odhcp6c=y
+CONFIG_PACKAGE_odhcp6c_ext_cer_id=0
+CONFIG_PACKAGE_odhcpd-ipv6only=y
+CONFIG_PACKAGE_odhcpd_ipv6only_ext_cer_id=0
+CONFIG_PACKAGE_parted=y
+# CONFIG_PACKAGE_shadowsocks-libev-ss-local is not set
+# CONFIG_PACKAGE_shadowsocks-libev-ss-redir is not set
+# CONFIG_PACKAGE_shadowsocks-libev-ss-server is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-check is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-local is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-server is not set
+# CONFIG_PACKAGE_simple-obfs is not set
+CONFIG_PACKAGE_smartdns=y
+CONFIG_PACKAGE_smartmontools=y
+CONFIG_PACKAGE_terminfo=y
+CONFIG_PACKAGE_transmission-daemon-openssl=y
+CONFIG_PACKAGE_transmission-web-control=y
+CONFIG_PACKAGE_unzip=y
+# CONFIG_PACKAGE_vsftpd-alt is not set
+CONFIG_PACKAGE_wol=m
+CONFIG_PACKAGE_zerotier=m
